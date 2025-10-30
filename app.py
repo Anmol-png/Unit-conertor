@@ -183,6 +183,9 @@ if st.button("🔁 Convert"):
     except Exception as e:
         st.error(f"⚠️ Conversion error: {e}")
 
-st.markdown("---")
-st.caption("Made with 💡 Streamlit — ready for Google Colab and Hugging Face Spaces 🚀")
+st.markdown("""
+<div style='text-align:center; font-size:14px; color:gray; margin-top:30px;'>
+© 2025 <b>Anmol Kumari</b> — All rights reserved.
+</div>
+""", unsafe_allow_html=True)
 
