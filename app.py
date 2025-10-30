@@ -9,6 +9,18 @@
 # ============================================================
 
 import streamlit as st
+st.set_page_config(
+    page_title="Universal Unit Converter - By Anmol Kumari",
+    page_icon="⚙️",
+    layout="centered"
+)
+
+st.markdown("""
+<meta name="title" content="Universal Unit Converter - By Anmol Kumari">
+<meta name="description" content="Convert units easily! Supports Length, Mass, Temperature, Time, Speed, and more. Free, simple and accurate.">
+<meta name="keywords" content="unit converter, anmol kumari, length converter, weight converter, temperature converter, online calculator">
+<meta name="author" content="Anmol Kumari">
+""", unsafe_allow_html=True)
 
 # -----------------------------
 # 🌍 Unit Conversion Dictionaries
